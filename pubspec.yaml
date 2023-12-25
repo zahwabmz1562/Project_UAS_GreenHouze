@@ -1,0 +1,189 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/cf525834063da5174a045717ced3-2.png
+    - assets/page-1/images/hicon-linear-add.png
+    - assets/page-1/images/cf525834063da5174a045717ced3-3-bg.png
+    - assets/page-1/images/hicon-linear-add-5K3.png
+    - assets/page-1/images/screenshot2023-11-01-08-52-55-74c0d35d5c8ea536686f7fb1c9f2f8f274-removebg-preview-3.png
+    - assets/page-1/images/screenshot2023-11-01-08-52-55-74c0d35d5c8ea536686f7fb1c9f2f8f274-removebg-preview-2.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/ellipse-1.png
+    - assets/page-1/images/ellipse-1-pkM.png
+    - assets/page-1/images/cf525834063da5174a045717ced3-2-bg.png
+    - assets/page-1/images/screenshot2023-11-01-08-52-55-74c0d35d5c8ea536686f7fb1c9f2f8f274-removebg-preview-2-hyf.png
+    - assets/page-1/images/hicon-linear-menu-hamburger.png
+    - assets/page-1/images/rectangle-42.png
+    - assets/page-1/images/group-3do.png
+    - assets/page-1/images/screenshot2023-11-01-08-52-55-74c0d35d5c8ea536686f7fb1c9f2f8f274-removebg-preview-2-Um3.png
+    - assets/page-1/images/ellipse-1-5q7.png
+    - assets/page-1/images/ellipse-1-Smj.png
+    - assets/page-1/images/hicon-linear-bag-2.png
+    - assets/page-1/images/rectangle-50.png
+    - assets/page-1/images/screenshot2023-11-01-08-52-55-74c0d35d5c8ea536686f7fb1c9f2f8f274-removebg-preview-3-6LM.png
+    - assets/page-1/images/hicon-linear-ticket-2.png
+    - assets/page-1/images/hicon-linear-buy-3.png
+    - assets/page-1/images/star-1.png
+    - assets/page-1/images/ellipse-17.png
+    - assets/page-1/images/ellipse-1-gL5.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-zn1.png
+    - assets/page-1/images/polygon-2.png
+    - assets/page-1/images/hicon-linear-location.png
+    - assets/page-1/images/ellipse-6-bg.png
+    - assets/page-1/images/ellipse-6-bg-5YH.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-2.png
+    - assets/page-1/images/vasovietnamita68modelosdecorativosparausarnoambiente-removebg-preview-1.png
+    - assets/page-1/images/cf525834063da5174a045717ced3-2-AZb.png
+    - assets/page-1/images/rectangle-44.png
+    - assets/page-1/images/gopay-logo-new-1.png
+    - assets/page-1/images/eb50d5af4ff57e2ed4394eb6981464-removebg-preview-1.png
+    - assets/page-1/images/rectangle-43.png
+    - assets/page-1/images/cf525834063da5174a045717ced3-3-bg-bt9.png
+    - assets/page-1/images/eb50d5af4ff57e2ed4394eb6981464-removebg-preview-2.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-1.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-xAy.png
+    - assets/page-1/images/ovo-1.png
+    - assets/page-1/images/polygon-2-Lcm.png
+    - assets/page-1/images/polygon-2-hTK.png
+    - assets/page-1/images/hicon-linear-bag-2-TBb.png
+    - assets/page-1/images/hicon-linear-bag-2-LmB.png
+    - assets/page-1/images/hicon-linear-arrow-swap-horizontal.png
+    - assets/page-1/images/polygon-2-Tsb.png
+    - assets/page-1/images/rectangle-50-bg.png
+    - assets/page-1/images/ellipse-6-bg-hau.png
+    - assets/page-1/images/hicon-linear-add-Eqj.png
+    - assets/page-1/images/hicon-linear-add-ghj.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-1-2Wh.png
+    - assets/page-1/images/hicon-linear-add-izH.png
+    - assets/page-1/images/rectangle-50-bg-p1j.png
+    - assets/page-1/images/ellipse-6-bg-q8q.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-3.png
+    - assets/page-1/images/ellipse-6-bg-HEM.png
+    - assets/page-1/images/rectangle-41.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-1-KhX.png
+    - assets/page-1/images/hicon-linear-message-29.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-HUZ.png
+    - assets/page-1/images/hicon-linear-add-yVf.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-VAV.png
+    - assets/page-1/images/rectangle-50-bg-xUV.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-1.png
+    - assets/page-1/images/polygon-2-Y2y.png
+    - assets/page-1/images/hicon-linear-bag-2-GDs.png
+    - assets/page-1/images/hicon-linear-bag-2-6To.png
+    - assets/page-1/images/hicon-linear-search-2.png
+    - assets/page-1/images/f370c1a7bd44d9ae232bf3e58d4f-removebg-preview-4.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-3.png
+    - assets/page-1/images/hicon-linear-add-1sb.png
+    - assets/page-1/images/f370c1a7bd44d9ae232bf3e58d4f-removebg-preview-3.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-5.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-1-rey.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-1-j6u.png
+    - assets/page-1/images/f370c1a7bd44d9ae232bf3e58d4f-removebg-preview-1.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-4.png
+    - assets/page-1/images/ellipse-6-bg-J9b.png
+    - assets/page-1/images/ellipse-6-bg-SFo.png
+    - assets/page-1/images/rectangle-50-bg-beV.png
+    - assets/page-1/images/ellipse-6-bg-1mo.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-Hcq.png
+    - assets/page-1/images/f370c1a7bd44d9ae232bf3e58d4f-removebg-preview-2.png
+    - assets/page-1/images/f370c1a7bd44d9ae232bf3e58d4f-removebg-preview-1-Rrm.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-1-U7w.png
+    - assets/page-1/images/id-11134207-7r98o-lnidkqwdt37rdf-removebg-preview-3-YQd.png
+    - assets/page-1/images/d2b5484c2196720bc65d136881d1a30-removebg-preview-2.png
+    - assets/page-1/images/cbe424ada70dc31fc886e7f9d8bd8-removebg-preview-1.png
+    - assets/page-1/images/hicon-linear-add-pVB.png
+    - assets/page-1/images/hicon-linear-search-2-Bty.png
+    - assets/page-1/images/hicon-linear-menu-hamburger-mrM.png
+    - assets/page-1/images/auto-group-zmrx.png
+    - assets/page-1/images/hicon-linear-left-2.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
